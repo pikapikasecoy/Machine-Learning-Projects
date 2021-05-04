@@ -1,9 +1,5 @@
 # Music-Genre-Classification-with-GTZAN-Dataset
 
-
-### About Me
-My name is April Qianyun Li, currently a student of Master in Data Science at the University of San Francisco.
-
 ### Project Description
 This repository is about classifying 10 genres of 1000 tracks(balanced, 100 tracks per genre) with accuracy score.
 The data used is the 30 second version from [Kaggle](https://www.kaggle.com/andradaolteanu/gtzan-dataset-music-genre-classification)
