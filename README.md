@@ -3,7 +3,7 @@
 
 This is a continuously updating repository of several projects applying machine learning skills to solve real life problems of interesting topics.
 
-## [01. Music Genre Classification]()
+## [01. Music Genre Classification](https://github.com/pikapikasecoy/Machine-Learning-Projects/tree/main/01_genre_classification)
 
 * **Target**: Classify genres of music tracks with music features extracted from librosa
 * **Data Description**: 
@@ -13,7 +13,7 @@ This is a continuously updating repository of several projects applying machine 
 * **Tools**: Python, sklearn, librosa
 * **Algorithms**: Random Forest, PCA
 * **Data Pipeline**:
-    - Feature Extraction: A [demo]() of how to extract features from .wav files was implemented, while the extraction of all tracks was not processed as kaggle provided the dataset with music features being extracted already.
+    - Feature Extraction: A [demo](https://github.com/pikapikasecoy/Machine-Learning-Projects/blob/main/01_genre_classification/Genre_Classification.ipynb) of how to extract features from .wav files was implemented, while the extraction of all tracks was not processed as kaggle provided the dataset with music features being extracted already.
     - Feature Engineering: 
         * StandardScaler and QuantileTransformaer was applied to standardize and normalize the features as required by PCA or linear models
         * TargetEncoder was applied to encode the target variable
@@ -24,7 +24,7 @@ This is a continuously updating repository of several projects applying machine 
     - Evaluation: A corss validation with "accuracy" as scoring metrics was applied to evaluate the performance of the model.
 
 
-## [02. Artist Clustering with Music Track Tags]()
+## [02. Artist Clustering with Music Track Tags](https://github.com/pikapikasecoy/Machine-Learning-Projects/tree/main/02_artist_clustering)
 
 * **Target**: Clustering artists for recommendation with tags of their music tracks
 * **Data Description**: 
